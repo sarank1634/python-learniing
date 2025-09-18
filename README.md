@@ -16,3 +16,22 @@ if 5 > 2:
  print("Five is greater than two!")
         print("Five is greater than two!")
  
+
+ use variables to store values
+ like example: -
+
+  x = 5
+  y = "hello world"
+
+  print(x)
+  print(y)
+  
+python commands: -
+
+can be use to explain python code 
+comments can be used to make code more readable
+comments can be used to prevent execution when testing code.
+
+""" 
+this is a multi line comment you can write more than just one line
+"""
