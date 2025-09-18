@@ -26,7 +26,7 @@ if 5 > 2:
   print(x)
   print(y)
   
-python commands: -
+# python commands: -
 
 can be use to explain python code 
 comments can be used to make code more readable
@@ -54,14 +54,14 @@ define variable and rules
 
 *variables have a short description  or short name
 
-#rules for variable names
+# rules for variable names
 
 1. A variable name must start with a letter or the underscore character
 2. A variable name cannot start with a number
 3. A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
 4. Variable names are case-sensitive (age, Age and AGE are three different variables)
 
-Multi words variable names 
+# Multi words variable names 
  
 Variable names more than one word can be difficult to read.
 
@@ -74,7 +74,33 @@ MyVariableName = "John"
 snake_case
 my_variable_name = "John".
 
+# Many Values to Multiple Variables.
+ 
+1.python allows you to assign values to multiple variables in one line.
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
 
 
+# Unpack a Collection :-
+ 1. if you have a collection of values in a list , tuple etc. 
+  2. python allows you to Extract the values into variables.
+   3. is called unpacking.
 
+# Example :-
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
 
+# Output variables
+
+in the print() function you can output multiple variables,
+separated by a comma:
+
+# Example :-
+x = 5
+y = "John"
+print(x, y)
