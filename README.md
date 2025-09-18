@@ -35,3 +35,18 @@ comments can be used to prevent execution when testing code.
 """ 
 this is a multi line comment you can write more than just one line
 """
+variables 
+python has no command for declaring a variable.
+
+if you want to specify the data type of variable  this can be done with casting .
+ exa
+ X = str(3)    # x will be '3'
+
+ single or Double quotes are the same
+ x = "hello world"
+ y = 'hello world'
+ 
+variables are case sensitive
+x = 5
+X = 6
+
