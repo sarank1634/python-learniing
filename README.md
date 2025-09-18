@@ -50,3 +50,31 @@ variables are case sensitive
 x = 5
 X = 6
 
+define variable and rules 
+
+*variables have a short description  or short name
+
+#rules for variable names
+
+1. A variable name must start with a letter or the underscore character
+2. A variable name cannot start with a number
+3. A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+4. Variable names are case-sensitive (age, Age and AGE are three different variables)
+
+Multi words variable names 
+ 
+Variable names more than one word can be difficult to read.
+
+use camelCase
+myVariableName = "John"
+
+pascalCase
+MyVariableName = "John"
+
+snake_case
+my_variable_name = "John".
+
+
+
+
+
